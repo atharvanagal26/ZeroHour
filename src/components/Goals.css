@@ -1,0 +1,101 @@
+.goals-container{
+    padding:25px;
+    background:#fff;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.goals-container h2{
+    color:#4f46e5;
+    margin-bottom:20px;
+    font-size:32px;
+    font-weight:700;
+}
+
+.goal-input{
+    display:flex;
+    gap:12px;
+    margin-bottom:25px;
+}
+
+.goal-input .input{
+    flex:1;
+    padding:14px 18px;
+    border:2px solid #e5e7eb;
+    border-radius:12px;
+    font-size:16px;
+    outline:none;
+    transition:.3s;
+}
+
+.goal-input .input:focus{
+    border-color:#6d28d9;
+}
+
+.goal-input .login-btn{
+    width:120px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(90deg,#7c3aed,#2563eb);
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.goal-input .login-btn:hover{
+    transform:translateY(-2px);
+}
+
+.goal-item{
+    display:flex;
+    align-items:center;
+    background:#f8f9ff;
+    padding:16px 18px;
+    border-radius:15px;
+    margin-bottom:15px;
+    border-left:6px solid #7c3aed;
+    box-shadow:0 4px 15px rgba(0,0,0,.06);
+    transition:.3s;
+}
+
+.goal-item:hover{
+    transform:translateY(-3px);
+}
+
+.goal-item input[type="checkbox"]{
+    width:20px;
+    height:20px;
+    cursor:pointer;
+    accent-color:#7c3aed;
+}
+
+.goal-item span{
+    flex:1;
+    margin-left:15px;
+    font-size:18px;
+    font-weight:500;
+    color:#333;
+}
+
+.goal-item span[style*="line-through"]{
+    color:#9ca3af;
+}
+
+.delete-btn{
+    border:none;
+    background:#ef4444;
+    color:white;
+    width:42px;
+    height:42px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:18px;
+    transition:.3s;
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+    transform:scale(1.08);
+}
